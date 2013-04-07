@@ -1,0 +1,169 @@
+/* print.css: Print Styles */
+
+
+body { font-family: "Gill Sans", "Trebuchet MS", Arial, san-serif; 
+         font-size: 80%;}
+
+#navigation
+{
+  display: none;
+}
+
+#footer
+{
+  display: none;
+}
+
+#tagline
+{
+  padding-bottom: 20px;
+}
+
+/* Bold on headings, b, and strong */
+h1,h2,h3,h4,strong,em { 
+  font-weight: bold; 
+  font-size: 90%;
+  color: #000;
+  list-style-type: none;
+}
+
+h1 { 
+  margin: 1em; 
+  padding-top: 1em; 
+  text-align: left;    
+  font-size: 2.0em; 
+  list-style-type: none;
+} 
+        
+a { 
+  color: #000; 
+}
+
+em { 
+  font-style: normal;
+} 
+
+
+/* no bullets on the list, style cascades to all lists */
+ul.resume {list-style-type: none;} 
+
+#contactinfo {
+  width: 20%;  
+  float: left; 
+  text-align: right; 
+  list-style-type: none;
+  padding-left: 325px;
+   padding-top: 30px;
+} 
+
+ul.execsummary{ 
+  padding-top: 120px; 
+  padding-bottom: 18px; 
+  list-style-type: none;
+}  
+
+#experience{ 
+  padding-top: 10px; 
+  border-bottom: 1px solid black; 
+  font-size: 1.25em; 
+  list-style-type: none;
+} 
+
+#logo{ 
+  padding-bottom: 18px; 
+  list-style-type: none;
+  float: left;
+}   
+
+#education{ 
+  padding-bottom: 18px; 
+  list-style-type: none;
+}   
+
+#navigation{ 
+  padding-bottom: 18px; 
+  list-style-type: none;
+}   
+
+#footer { 
+  background: #CCC; 
+  font-weight: bold; 
+} 
+
+/*
+#contents em { 
+  float: left; 
+  padding: 8px 14px 8px 8px; 
+  margin: 0px; 
+  min-width: 150px; 
+  min-height: 50px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25em;
+  text-align: right; 
+  text-transform: lowercase;
+  list-style-type: none;
+} 
+#contents p { 
+  padding: 8px; 
+  margin-left: 10px; 
+  min-height: 50px; 
+} 
+
+#contents div.printAdjust { 
+  padding-top: 50px; 
+} 
+
+#header {
+  height: 175px;
+  width: 100%;  
+  background: #CCC; 
+}
+
+#header h1 { 
+  padding-top: 20px; 
+  padding-bottom: 4px; 
+  text-align: center; 
+} 
+
+#header p { 
+  line-height: 1em; 
+} 
+
+#header div { 
+  float: left; 
+  margin-left: 10px; 
+} 
+
+#contactinfo { 
+  padding-top: 10px; 
+} 
+
+#aw2logo img { 
+  height: 175px; 
+  width: auto;  
+} 
+
+#masthead { 
+  width: 45%; 
+  text-align: center;
+} 
+
+#masthead h1 { 
+  font-size: 2em; 
+} 
+
+#masthead div.site-nav { 
+  display: none; 
+  float: none;
+} 
+
+#masthead div.site-nav ul {
+  margin: 0; 
+  padding: 0; 
+} 
+
+#masthead div.site-nav li { 
+  display: inline-block; 
+  padding: 5px; 
+} */
