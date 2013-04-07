@@ -1,0 +1,187 @@
+/* screen1.css: Screen Styles */
+
+body { font-family: "Gill Sans", "Trebuchet MS", Arial, san-serif; 
+ padding-right: 25px;}
+
+html { background-color:#ECE5B6; }
+
+/* Bold on headings, b, and strong */
+h1,h2,h3,h4,strong,em { 
+  font-weight: bold; 
+  font-size: 100%;
+  color: #8B4789;
+ 
+}
+
+
+
+h1 { 
+  margin: 0px; 
+  padding-top: 1em; 
+  text-align: left;    
+  font-size: 2.0em;
+  
+} 
+  
+
+h2 { 
+  margin: 0px; 
+  padding-top: 30px; 
+  text-align: left;    
+  font-size: 1.5em;
+  list-style-type: none;
+} 
+
+h3 { 
+  margin: 0px; 
+  padding-top: 30px; 
+  text-align: left;    
+  list-style-type: none;
+} 
+
+a { 
+  color: #8B4789; 
+}
+
+em { 
+  font-style: normal;
+} 
+
+#tagline { 
+  padding-top: 100px; 
+  padding-bottom: 50px;
+  float: left; 
+  list-style-type: none;
+} 
+
+#contactinfo { 
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  float: left;
+  list-style-type: none;
+  width: auto;   
+  text-align: left; 
+  background: #ACA786;
+} 
+
+#navigation { 
+  padding-top: 30px; 
+  padding-bottom: 10px;
+  padding-right: 50px;
+  float: left; 
+  list-style-type: none;
+  text-align: right;
+  background: #ACA786;
+} 
+
+#logo { 
+  padding-top: 10px; 
+  height: 100px; 
+  padding-bottom: 10px;
+  padding-right: 28px;
+  width: auto;  
+  float: left; 
+  background: #ACA786;
+} 
+
+ul.programs {
+  padding-top: 160px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+}
+
+
+@media (min-width: 20em) {
+   html {
+  
+  #tagline 
+      font-size: 200%;
+   }
+}
+/*@-ms-viewport, @-o-viewport, viewport {
+    width: device-width;
+}
+
+@media (max-width: 22em) {
+   body {
+      font-size: .9em;
+      padding: 0 1.5em;
+    }
+}
+
+@media (min-width: 20em) {
+   html {
+      font-size: 200%;
+   }
+}
+/*#header {
+  height: 175px;
+  width: 100%; 
+  background: #ACA786; 
+}
+
+#header h1 { 
+  padding-top: 20px; 
+  padding-bottom: 4px; 
+  text-align: center; 
+} 
+
+#header p { 
+  line-height: 1em; 
+} 
+
+#header div { 
+  float: left; 
+  margin-left: 10px; 
+}*/ 
+/*#masthead { 
+  width: 55%; 
+  text-align: center;
+} 
+
+#masthead h1 { 
+  font-size: 2em; 
+} 
+
+#masthead div.site-nav { 
+  float: left;
+} 
+
+#masthead div.site-nav ul {
+  margin: 0; 
+  padding: 0; 
+} 
+
+#masthead div.site-nav li { 
+  display: inline-block; 
+  padding: 5px; 
+} 
+
+#contents em { 
+  float: left; 
+  padding: 8px 14px 8px 8px; 
+  margin: 0px; 
+  min-width: 150px; 
+  min-height: 50px; 
+  color: #8B4789;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25em;
+  text-align: right; 
+  text-transform: lowercase; 
+  list-style-type: none;
+} 
+
+#contents p { 
+  padding: 250px; 
+  margin-left: 10px; 
+  min-height: 50px; 
+} 
+
+#experience p.date { 
+  padding-top: 10px; 
+  border-bottom: 1px solid black; 
+  font-size: 1.25em; 
+} */
+
