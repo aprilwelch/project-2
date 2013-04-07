@@ -1,12 +1,17 @@
 /* screen1.css: Screen Styles */
 
-body { font-family: "Gill Sans", "Trebuchet MS", Arial, san-serif; 
- padding-right: 25px;}
 
-html { background-color:#ECE5B6; }
+
+html { background-color:#FFFFFF; }
+
+body { font-family: 'Ubuntu', sans-serif;
+       font-size: 100%;
+
+}
 
 /* Bold on headings, b, and strong */
 h1,h2,h3,h4,strong,em { 
+ font-family: 'Ubuntu', sans-serif;
   font-weight: bold; 
   font-size: 100%;
   color: #8B4789;
