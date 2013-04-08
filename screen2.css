@@ -9,6 +9,19 @@ body { font-family: 'Ubuntu', sans-serif;
 
 }
 
+
+
+/*Responsive Grid Layout three column grid like a chicago style window*/
+
+/*Web Fonts from Google - <link href='http://fonts.googleapis.com/css?family=Noto+Sans|Cagliostro|Voltaire' rel='stylesheet' type='text/css'>*/
+
+/*Media Queries so the site is optimized for mobile devices, large screens and everything in between*/
+
+/*Scaleable images*/
+
+/*Really cool glowy navigation*/
+
+
 /* Bold on headings, b, and strong */
 h1,h2,h3,h4,strong,em { 
  font-family: 'Ubuntu', sans-serif;
@@ -104,89 +117,6 @@ ul.programs {
       font-size: 200%;
    }
 }
-/*@-ms-viewport, @-o-viewport, viewport {
-    width: device-width;
-}
 
-@media (max-width: 22em) {
-   body {
-      font-size: .9em;
-      padding: 0 1.5em;
-    }
-}
 
-@media (min-width: 20em) {
-   html {
-      font-size: 200%;
-   }
-}
-/*#header {
-  height: 175px;
-  width: 100%; 
-  background: #ACA786; 
-}
-
-#header h1 { 
-  padding-top: 20px; 
-  padding-bottom: 4px; 
-  text-align: center; 
-} 
-
-#header p { 
-  line-height: 1em; 
-} 
-
-#header div { 
-  float: left; 
-  margin-left: 10px; 
-}*/ 
-/*#masthead { 
-  width: 55%; 
-  text-align: center;
-} 
-
-#masthead h1 { 
-  font-size: 2em; 
-} 
-
-#masthead div.site-nav { 
-  float: left;
-} 
-
-#masthead div.site-nav ul {
-  margin: 0; 
-  padding: 0; 
-} 
-
-#masthead div.site-nav li { 
-  display: inline-block; 
-  padding: 5px; 
-} 
-
-#contents em { 
-  float: left; 
-  padding: 8px 14px 8px 8px; 
-  margin: 0px; 
-  min-width: 150px; 
-  min-height: 50px; 
-  color: #8B4789;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 1.25em;
-  text-align: right; 
-  text-transform: lowercase; 
-  list-style-type: none;
-} 
-
-#contents p { 
-  padding: 250px; 
-  margin-left: 10px; 
-  min-height: 50px; 
-} 
-
-#experience p.date { 
-  padding-top: 10px; 
-  border-bottom: 1px solid black; 
-  font-size: 1.25em; 
-} */
 
