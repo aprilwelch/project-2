@@ -1,6 +1,4 @@
-/* screen1.css: Screen Styles */
-
-
+/* screen2.css: Screen Styles */
 
 html { background-color:#FFFFFF; }
 
@@ -80,7 +78,7 @@ em {
   list-style-type: none;
   width: auto;   
   text-align: left; 
-  background: #ACA786;
+  background: #ffffff;
 } 
 
 #navigation { 
@@ -90,7 +88,7 @@ em {
   float: left; 
   list-style-type: none;
   text-align: right;
-  background: #ACA786;
+  background: #dae7be;
 } 
 
 #logo { 
@@ -100,7 +98,7 @@ em {
   padding-right: 28px;
   width: auto;  
   float: left; 
-  background: #ACA786;
+  background: #ffffff;
 } 
 
 ul.programs {
@@ -108,7 +106,11 @@ ul.programs {
   padding-bottom: 50px;
   padding-left: 25px;
 }
-
+#page {
+  padding-top: 160px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+}
 
 @media (min-width: 20em) {
    html {
