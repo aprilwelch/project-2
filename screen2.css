@@ -1,16 +1,83 @@
 /* screen2.css: Screen Styles */
 
-html { background-color:#FFFFFF; }
+/* Universal Settings */
 
-body { font-family: 'Ubuntu', sans-serif;
-       font-size: 100%;
+body {
+  max-width: 1024px;
+  margin: auto;
+  padding: auto;
+  /*font: 12px/18px 'Ubuntu', sans-serif;*/
+  font-family: 'Habibi', serif;
+ }
+ 
 
+/*  Fonts and Headings  */
+
+h1, h2, h3 {
+  font-weight: bold; 
+  font-size: 100%;
+  color: #8B4789; 
+}
+
+h1 { 
+  font-size: 24px; 
+  line-height: 36px; 
+  margin-bottom: 18px; 
+}
+
+h2 { 
+  font-size: 18px; 
+  line-height: 36px; 
+  margin-bottom: 18px; 
+}
+
+h3 { 
+  font-size: 12px; 
+  line-height: 18px; 
+  margin-bottom: 18px; 
+}
+
+
+p { 
+  margin: 0 0 18px 0; 
+}
+
+p img { 
+  margin: 0; 
+}
+
+em { 
+  font-style: italic; 
+}
+
+strong { 
+  font-weight: bold; 
+  color: #333; 
 }
 
 
 
+
+  
+.clear {
+  clear:both;
+}
+
 /*Responsive Grid Layout three column grid like a chicago style window*/
 
+
+.leftnav-15, .rightimg-15 {
+Width: 15%;
+Float: left;
+}
+
+.middlemain-70 {
+Width:70%
+Float: left;
+
+.clear {
+  clear:both;
+}
 /*Web Fonts from Google - <link href='http://fonts.googleapis.com/css?family=Noto+Sans|Cagliostro|Voltaire' rel='stylesheet' type='text/css'>*/
 
 /*Media Queries so the site is optimized for mobile devices, large screens and everything in between*/
@@ -21,7 +88,7 @@ body { font-family: 'Ubuntu', sans-serif;
 
 
 /* Bold on headings, b, and strong */
-h1,h2,h3,h4,strong,em { 
+strong,em { 
  font-family: 'Ubuntu', sans-serif;
   font-weight: bold; 
   font-size: 100%;
@@ -31,29 +98,7 @@ h1,h2,h3,h4,strong,em {
 
 
 
-h1 { 
-  margin: 0px; 
-  padding-top: 1em; 
-  text-align: left;    
-  font-size: 2.0em;
-  
-} 
-  
-
-h2 { 
-  margin: 0px; 
-  padding-top: 30px; 
-  text-align: left;    
-  font-size: 1.5em;
-  list-style-type: none;
-} 
-
-h3 { 
-  margin: 0px; 
-  padding-top: 30px; 
-  text-align: left;    
-  list-style-type: none;
-} 
+ 
 
 a { 
   color: #8B4789; 
@@ -81,15 +126,7 @@ em {
   background: #ffffff;
 } 
 
-#navigation { 
-  padding-top: 30px; 
-  padding-bottom: 10px;
-  padding-right: 50px;
-  float: left; 
-  list-style-type: none;
-  text-align: right;
-  background: #dae7be;
-} 
+
 
 #logo { 
   padding-top: 10px; 
@@ -112,12 +149,8 @@ ul.programs {
   padding-left: 25px;
 }
 
-@media (min-width: 20em) {
-   html {
-  
-  #tagline 
-      font-size: 200%;
-   }
+@media only screen and (min-width:768px)
+
 }
 
 
