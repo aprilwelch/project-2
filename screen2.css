@@ -111,10 +111,19 @@ a.to_nav:focus {
     color: #1c1c1c;
     background: #ccc;
 }
-/*Really cool glowy navigation take two*/
+
+
+nav ul ul {
+  display: none;
+}
+/* Bold on still working on the nav */
+  nav ul li:hover > ul {
+    display: block;
+  }
+
 .navigation {
   max-width: none;
-  background: #000;
+  background: #a9ccc7;
   padding: 0;
 }
 
@@ -124,39 +133,12 @@ a.to_nav:focus {
 
 .navigation li a {
   display: block;
-  color: #fff;
+  color: #a103c7;
   padding: 10px;
 }
 
 .navigation li a:hover {
-  background: #0fcaf2;
-}
-/*navigation*/
-#primary_nav ul {
-    list-style: none;
-    background: #1c1c1c;
-    padding: 5px 0;
-}
-#primary_nav li a {
-    display: block;
-    padding: 0 20px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    letter-spacing: 0.1em;
-    line-height: 2em;
-    height: 2em;
-    border-bottom: 1px solid #383838;
-}
-#primary_nav li:last-child a {
-    border-bottom: none;
-}
-#primary_nav li a:hover,
-#primary_nav li a:focus {
-    color: #1c1c1c;
-    background: #ccc;
+  background: #466d3d;
 }
 /* Bold on headings, b, and strong 
 strong,em { 
