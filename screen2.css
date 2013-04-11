@@ -80,7 +80,11 @@ Width: 15%;
 /*Scaleable images*/
 
 /*Really cool glowy navigation*/
-h1.logo a {
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;} 
+
+<!--h1.logo a {
     color: #d8d8d8;
     text-decoration: none;
     font-weight: bold;
@@ -111,7 +115,7 @@ a.to_nav:focus {
     color: #1c1c1c;
     background: #ccc;
 }
-
+-->
 
 nav ul ul {
   display: none;
@@ -138,8 +142,13 @@ nav ul ul {
 }
 
 .navigation li a:hover {
-  background: #466d3d;
+  background: #c6ccc9;
 }
+
+.navheader { 
+  font-size: 12px;
+}
+
 /* Bold on headings, b, and strong 
 strong,em { 
  font-family: 'Ubuntu', sans-serif;
