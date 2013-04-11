@@ -129,7 +129,9 @@ nav ul ul {
   max-width: none;
   background: #a9ccc7;
   padding: 0;
-}
+  text-transform: uppercase;
+  font-weight: bold;
+ }
 
 .navigation li {
   float: left;
@@ -137,31 +139,20 @@ nav ul ul {
 
 .navigation li a {
   display: block;
-  color: #a103c7;
+  color: #8B4789;
   padding: 10px;
 }
 
 .navigation li a:hover {
-  background: #c6ccc9;
+  background: #d5dad7;
 }
 
 .navheader { 
   font-size: 12px;
 }
 
-/* Bold on headings, b, and strong 
-strong,em { 
- font-family: 'Ubuntu', sans-serif;
-  font-weight: bold; 
-  font-size: 100%;
-  color: #8B4789;
  
-}
-
-
-
- 
-
+<!--
 a { 
   color: #8B4789; 
 }
@@ -217,3 +208,4 @@ ul.programs {
 
 
 */
+-->
