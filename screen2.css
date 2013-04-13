@@ -6,7 +6,6 @@ body {
   max-width: 1024px;
   margin: auto;
   padding: auto;
-  /*font: 12px/18px 'Ubuntu', sans-serif;*/
   font-family: 'Habibi', serif;
   line-height: 1.3em;
  }
@@ -17,7 +16,7 @@ body {
 h1, h2, h3 {
   font-weight: bold; 
   font-size: 100%;
-  color: #8B4789; 
+  color: #c418d8; 
 }
 
 h1 { 
@@ -28,19 +27,64 @@ h1 {
 
 h2 { 
   font-size: 1.5em; 
-  line-height: 1em; 
+  line-height: 1.2em; 
   /*margin-bottom: 1.5em; */
 }
 
 h3 { 
   font-size: 1em; 
   line-height: 1.2em; 
+  font-style:italic
  /* margin-bottom: 1em; */
 }
 
+h4 { 
+  font-size: .75em; 
+  line-height: .75em; 
+ /* margin-bottom: 1.2em; */
+}
 
+h5 { 
+  font-size: .90em; 
+  line-height: 1em; 
+  font-style:italic;
+  color: #c418d8;
+ /* margin-bottom: 1em; */
+}
 
+p { 
+  font-size: 1em; 
+  line-height: 1.2em; 
+  margin-bottom: 1.2em; 
+}
 
+#logo {
+  width:150%;
+  height:150%;
+ padding: .5em
+}
+
+#banner {
+  width:75%;
+  height:45%;
+  float:left
+}
+
+#showed2 {
+  text-decoration: underline;
+  font-weight: bold;   
+}
+
+#quote {
+  border-bottom-style:dotted;
+  border-bottom-color: #c418d8;
+  border-spacing:1.3em;
+}
+
+/*This is not working yet, I was trying to add bullets to part of a list within a list*/
+.freelancecoders{
+  list-style-type: square;
+}
 /*Responsive Grid Layout three column grid like a chicago style window*/
 /*  SECTIONS  */
 .section {
@@ -57,33 +101,106 @@ h3 {
 }
 .col:first-child { margin-left: 0; }
 
-.leftnav-15{
-Width: 15%;
-}
 
-.middlemain-60 {
-Width:60%
-} 
-
-.rightimg-15 {
-Width: 15%;
-}
 
 .clear {
   clear:both;
 }
 
-/*Web Fonts from Google - <link href='http://fonts.googleapis.com/css?family=Noto+Sans|Cagliostro|Voltaire' rel='stylesheet' type='text/css'>*/
+/*Web Fonts from Google - add font-family: 'Habibi', serif; to the CSS and add this line to the HTML <link href='http://fonts.googleapis.com/css?family=Habibi' rel='stylesheet' type='text/css'> */
 
 /*Media Queries so the site is optimized for mobile devices, large screens and everything in between*/
 
-/*Scaleable images*/
+    
+ /*Portrait iPhone: Horizontal px 320, Vertical px 480, diagonal 3.5in, resolution 163 ppi*/  
+     @media (max-width: 320px)
+
+ /*Landscape iPhone: Horizontal px 320, Vertical px 480, diagonal 3.5in, resolution 163 ppi*/
+     @media (min-width: 321px) and (max-width: 480px)
+
+ /*Portrait iPhone 4S: Horizontal px 640, Vertical px 960, diagonal 3.5in, resolution 326 ppi*/  
+     @media (max-width: 320px)
+
+ /*Landscape iPhone 4S: Horizontal px 640, Vertical px 960, diagonal 3.5in, resolution 326 ppi*/
+     @media (min-width: 321px) and (max-width: 480px)
+
+Screen Width = 768px (CSS Pixels) Screen Height = 1024px (CSS Pixels) Screen Width = 768px (Actual Pixels) Screen Height = 1024px (Actual Pixels) Device-pixel-ratio: 1
+
+/*Portrait iPad mini: Horizontal px 1024, Vertical px 768, diagonal 3.5in, resolution 326 ppi*/*/ 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1) { /* STYLES GO HERE */ }
+
+/*Landscape iPad mini*/ 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 1) { /* STYLES GO HERE */}
+
+ /*Portrait iPad/iPad 2: Horizontal px 1024, Vertical px 768, diagonal 9.7 in, resolution 132 ppi*/
+     @media (min-width: 481px) and (max-width: 768px)
+
+ /*Landscape iPad/iPad 2 Horizontal px 1024, Vertical px 768, diagonal 9.7 in, resolution 132 ppi*/
+
+ /*Portrait /iPad 3 Horizontal px 2048, Vertical px 1536, diagonal 9.7 in, resolution 264 ppi*/
+
+ /*Landscape /iPad 3 Horizontal px 2048, Vertical px 1536, diagonal 9.7 in, resolution 264 ppi*/
+
+ /*Portrait /Samsung Galaxy Note 10.1 Horizontal px 1280, Vertical px 800, diagonal 10.1 in, resolution 149 ppi*/
+
+ /*Landscape /Samsung Galaxy Note 10.1 Horizontal px 1280, Vertical px 800, diagonal 10.1 in, resolution 149 ppi*/
+
+ /*Portrait /Microsoft Surface RT Horizontal px 1366, Vertical px 768, diagonal 10.6 in, resolution 155 ppi*/
+
+ /*Landscape /Microsoft Surface RT Horizontal px 1366, Vertical px 768, diagonal 10.6 in, resolution 155 ppi*/
+
+ /*Portrait /Google Nexus 10 RT Horizontal px 2560, Vertical px 1560, diagonal 10.1 in, resolution 300 ppi*/
+
+   /*Standard Monitor*/
+     @media (min-width: 548px) and (max-width: 989px)
+/*Currently, the standard size of a monitor screen is 1024 pixels by 760 pixels, this means the web secure area should be less than that — it is 989px by 548px.*/
+#banner {
+   background: url(media/purplebubblespng.png) no-repeat scroll;
+  background-position:center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  float:left;
+}
 
 /*Really cool glowy navigation*/
 
 a:link {text-decoration:none;}
 a:visited {text-decoration:none;} 
 
+
+nav ul ul {
+  display: none;
+}
+/* Bold on still working on the nav */
+  nav ul li:hover > ul {
+    display: block;
+  }
+
+.navigation {
+  max-width: none;
+  background: #d8baf6;
+  padding: .8em;
+  text-transform: uppercase;
+  font-weight: bold;
+ }
+
+.navigation li a:hover {
+  background: #d8baf6;
+}
+
+.navheader { 
+  font-size: 12px;
+}
+
+.selected {
+  background:#d8baf6;
+  border-style:solid;
+border-color:#c418d8;
+  border-width:2px;
+  
+} 
 <!--h1.logo a {
     color: #d8d8d8;
     text-decoration: none;
@@ -117,41 +234,6 @@ a.to_nav:focus {
 }
 -->
 
-nav ul ul {
-  display: none;
-}
-/* Bold on still working on the nav */
-  nav ul li:hover > ul {
-    display: block;
-  }
-
-.navigation {
-  max-width: none;
-  background: #a9ccc7;
-  padding: 0;
-  text-transform: uppercase;
-  font-weight: bold;
- }
-
-.navigation li {
-  float: left;
-}
-
-.navigation li a {
-  display: block;
-  color: #8B4789;
-  padding: 10px;
-}
-
-.navigation li a:hover {
-  background: #d5dad7;
-}
-
-.navheader { 
-  font-size: 12px;
-}
-
- 
 <!--
 a { 
   color: #8B4789; 
@@ -209,3 +291,51 @@ ul.programs {
 
 */
 -->
+
+
+@media only screen and (min-width:320px) {
+
+}
+
+
+@media only screen and (min-width:480px) {
+
+}
+
+@media only screen and (min-width:768px) {
+  .leftnav-15{
+    Width: 15%;
+  }
+
+  .middlemain-60 {
+    Width:60%
+  } 
+
+  .rightimg-15 {
+    Width: 15%;
+  }
+
+.navigation li {
+  float: left;
+}
+
+.navigation li a {
+  display: block;
+  color: #c418d8;
+  padding: 1.2em;
+}
+}
+
+@media only screen and (min-width:1024px) {
+    .leftnav-15{
+    Width: 15%;
+  }
+
+  .middlemain-60 {
+    Width:60%
+  } 
+
+  .rightimg-15 {
+    Width: 15%;
+  }
+}
