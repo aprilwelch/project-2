@@ -71,9 +71,12 @@ padding: .3em;
   float:left;
 }
 
-#showed2 {
-  text-decoration: underline;
-  font-weight: bold;   
+#showed2, #hideed2, #showexp2, #hideexp2, #showobj2, #hideobj2 {
+  text-decoration: none;
+  font-weight: bold;
+  color: #008282;  
+  text-transform: uppercase;
+  font-size: .90em; 
 }
 
 #quote {
