@@ -59,15 +59,16 @@ p {
 }
 
 #logo {
-  width:150%;
-  height:150%;
- padding: .5em
+  width:18%;
+  height:18%;
+padding: .3em;
+   float:left;
 }
 
 #banner {
   width:75%;
   height:45%;
-  float:left
+  float:left;
 }
 
 #showed2 {
@@ -76,11 +77,51 @@ p {
 }
 
 #quote {
-  border-bottom-style:dotted;
-  border-bottom-color: #c418d8;
-  border-spacing:1.3em;
+  border-top-style:dotted;
+  border-top-color: #c418d8;
+  border-spacing: 1.5em;
+  
 }
-
+#photo1 {
+  border:3px solid #c418d8;
+  height:95%;
+  width:95%;  
+}
+#photo2 {
+  border:3px solid #c418d8;
+  height:95%;
+  width:95%;  
+}
+#photo3 {
+  border:3px solid #c418d8;
+  height:95%;
+  width:95%;  
+}
+#photo4 {
+  border:3px solid #c418d8;
+  height:95%;
+  width:95%;  
+}
+#photo5 {
+  border:3px solid #c418d8;
+  height:95%;
+  width:95%;  
+}
+#photo6 {
+  border:3px solid #c418d8;
+  height:95%;
+  width:95%;  
+}
+#photo7 {
+  border:3px solid #c418d8;
+  height:95%;
+  width:95%;  
+}
+#photo8 {
+  border:3px solid #c418d8;
+  height:95%;
+  width:95%;  
+}
 /*This is not working yet, I was trying to add bullets to part of a list within a list*/
 .freelancecoders{
   list-style-type: square;
@@ -100,8 +141,6 @@ p {
   margin: 1.4% 0 1.4% 1.4%;
 }
 .col:first-child { margin-left: 0; }
-
-
 
 .clear {
   clear:both;
@@ -263,15 +302,7 @@ em {
 
 
 
-#logo { 
-  padding-top: 10px; 
-  height: 100px; 
-  padding-bottom: 10px;
-  padding-right: 28px;
-  width: auto;  
-  float: left; 
-  background: #ffffff;
-} 
+
 
 ul.programs {
   padding-top: 160px;
