@@ -28,7 +28,7 @@ h1 {
 h2 { 
   font-size: 1.5em; 
   line-height: 1.2em; 
-  /*margin-bottom: 1.5em; */
+  margin-top: 1em;
 }
 
 h3 { 
@@ -49,7 +49,7 @@ h5 {
   line-height: 1em; 
   font-style:italic;
   color: #c418d8;
- /* margin-bottom: 1em; */
+  margin-bottom: 1em; 
 }
 
 p { 
@@ -79,52 +79,20 @@ padding: .3em;
   font-size: .90em; 
 }
 
-#quote {
+.quote {
   border-top-style:dotted;
   border-top-color: #c418d8;
   border-spacing: 1.5em;
   
+  
 }
-#photo1 {
+
+.photo {
   border:3px solid #c418d8;
   height:95%;
   width:95%;  
 }
-#photo2 {
-  border:3px solid #c418d8;
-  height:95%;
-  width:95%;  
-}
-#photo3 {
-  border:3px solid #c418d8;
-  height:95%;
-  width:95%;  
-}
-#photo4 {
-  border:3px solid #c418d8;
-  height:95%;
-  width:95%;  
-}
-#photo5 {
-  border:3px solid #c418d8;
-  height:95%;
-  width:95%;  
-}
-#photo6 {
-  border:3px solid #c418d8;
-  height:95%;
-  width:95%;  
-}
-#photo7 {
-  border:3px solid #c418d8;
-  height:95%;
-  width:95%;  
-}
-#photo8 {
-  border:3px solid #c418d8;
-  height:95%;
-  width:95%;  
-}
+
 /*This is not working yet, I was trying to add bullets to part of a list within a list*/
 .freelancecoders{
   list-style-type: square;
@@ -168,7 +136,7 @@ padding: .3em;
 
 Screen Width = 768px (CSS Pixels) Screen Height = 1024px (CSS Pixels) Screen Width = 768px (Actual Pixels) Screen Height = 1024px (Actual Pixels) Device-pixel-ratio: 1
 
-/*Portrait iPad mini: Horizontal px 1024, Vertical px 768, diagonal 3.5in, resolution 326 ppi*/*/ 
+/*Portrait iPad mini: Horizontal px 1024, Vertical px 768, diagonal 3.5in, resolution 326 ppi*/ 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1) { /* STYLES GO HERE */ }
 
 /*Landscape iPad mini*/ 
