@@ -28,6 +28,27 @@
   <!--For Internet Explorer:-->
 
   <link rel="shortcut icon" href="http://aprilwelch.net/media/favicon.ico" />
+  
+  <!--For jquery slide show-->
+
+  <style>
+    /* Prevents slides from flashing */
+    #slides {
+      display:none;
+    }
+  </style>
+
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="jquery.slides.min.js"></script>
+
+  <script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 940,
+        height: 528
+      });
+    });
+  </script>
 
 </head>
   <body>
@@ -79,9 +100,17 @@
         <div class="col middlemain-60">
           <h2>Portfolio - Photography</h2> <p>Welcome! Thank you for visiting my portfolio page. Here you will find out a little more about some of the photos I was commissioned to take for IIT.</p>
           
-          <div>
-            <img class="photo" src="media/IIT1.jpg" alt="Image of IIT" />
-            <p> This is a picture I took in 2006 on the main capus at IIT.</p>
+          <div id="slides">
+           
+           
+          
+    <img src="http://media/IIT5.jpg/940x528">
+    <img src="http://media/IIT6.jpg/940x528">
+    <img src="http://media/IIT7.jpg/940x528">
+    <img src="http://media/IIT8.jpg/940x528">
+    <img src="http://media/IIT9.jpg/940x528">
+    <img class="photo" src="media/IIT1.jpg" alt="Image of IIT" />
+         
             
                     <img class="photo" src="media/IIT5.jpg" alt="Image of IIT" />
             <p> This is a picture I took in 2006 on the main capus at IIT.</p>
@@ -166,7 +195,7 @@
           <p class="quote">"I want pictures like these. The kind that can capture a moment, make it real, make it last. I need pictures that do more than reflect. I need pictures that are truth." </p>
 <h5>Lisa Magnum</h5> 
 
-          <p class="quote">"Taking pictures is savoring life intensely, every hundredth of a second."
+          <p class="quote">"Taking pictures is savoring life intensely, every hundredth of a second." 
  </p><h5>Marc Riboud</h5>
 
           <p class="quote">"The camera is an instrument that teaches people how to see without a camera." </p>
