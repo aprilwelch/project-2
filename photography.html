@@ -10,8 +10,6 @@
   <link rel="stylesheet" type="text/css" media="screen, print" href="/css/reset.css" />  
   <link rel="stylesheet" type="text/css" media="screen" href="/css/screen1.css" />
   <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
-
-  
   <!--<link href='http://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed' rel='stylesheet' type='text/css'> -->
   <link href='http://fonts.googleapis.com/css?family=Habibi' rel='stylesheet' type='text/css'>
 <!--REMOVE COMMENT TAGS TO USE FACEBOOK SHARE METADATA:
@@ -30,7 +28,13 @@
 
   <link rel="shortcut icon" href="http://aprilwelch.net/media/favicon.ico" />
   
-
+  <!--For jquery slide show-->
+ <meta name="viewport" content="width=device-width">
+  <meta property="og:title" content="SlidesJS, a responsive slideshow plug-in for jQuery.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://www.slidesjs.com">
+  <meta property="og:image" content="http://slidesjs.com/img/slidesjs-black.png">
+  <meta property="og:site_name" content="SlidesJS, a responsive slideshow plug-in for jQuery.">
   <style>
     /* Prevents slides from flashing */
     #slides {
@@ -145,7 +149,7 @@
          
           
            <div id="slides_portrait">
-           <img class="photo" src="media/IIT13.jpg" alt="Image of IIT"/453x600 />
+           <img class="photo" src="media/IIT13.jpg" alt="Image of IIT" />
             
                     <img class="photo" src="media/IIT14.jpg" alt="Image of IIT" />
             
@@ -160,6 +164,23 @@
                    <img class="photo" src="media/IIT19.jpg" alt="Image of IIT" />
           
           </div>
+          
+           <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div id="slides-section" class="section">
+            <div id="slides">
+              <img src="media/IIT5.jpg" alt="Image of IIT" />
+              <img src="media/IIT6.jpg" alt="Image of IIT" />
+              <img src="media/IIT7.jpg" alt="Image of IIT" />
+              <img src="media/IIT8.jpg" alt="Image of IIT" />
+              <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+              <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
           <ul class="validators">
             <li><a href="http://validator.w3.org/check?uri=referer"
               title="Validate this page's HTML5">HTML5</a></li>
