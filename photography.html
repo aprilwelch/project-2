@@ -10,7 +10,7 @@
   <link rel="stylesheet" type="text/css" media="screen, print" href="/css/reset.css" />  
   <link rel="stylesheet" type="text/css" media="screen" href="/css/screen1.css" />
   <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
-    <link rel="stylesheet" type="text/cssscreen" media="print" href="/css/stylejs.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/stylejs.css" />
   
   <!--<link href='http://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed' rel='stylesheet' type='text/css'> -->
   <link href='http://fonts.googleapis.com/css?family=Habibi' rel='stylesheet' type='text/css'>
@@ -31,17 +31,26 @@
   <link rel="shortcut icon" href="http://aprilwelch.net/media/favicon.ico" />
   
   <!--For jquery slide show-->
-
+ <meta name="viewport" content="width=device-width">
+  <meta property="og:title" content="SlidesJS, a responsive slideshow plug-in for jQuery.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://www.slidesjs.com">
+  <meta property="og:image" content="http://slidesjs.com/img/slidesjs-black.png">
+  <meta property="og:site_name" content="SlidesJS, a responsive slideshow plug-in for jQuery.">
   <style>
     /* Prevents slides from flashing */
     #slides {
       display:none;
     }
   </style>
-
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- End CSS -->
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="jquery.slides.min.js"></script>
-
+  <script src="jquery.slides.js"></script>
   <script>
     $(function(){
       $("#slides").slidesjs({
@@ -107,43 +116,73 @@
       </div>
         <div class="col middlemain-60">
           <h2>Portfolio - Photography</h2> <p>Welcome! Thank you for visiting my portfolio page. Here you will find out a little more about some of the photos I was commissioned to take for IIT.</p>
-          
-          <div id="slides">
-         
-    <img class="photo" src= "media/IIT1.jpg" alt="Image of IIT" />
-         
-            
-                    <img class="photo" src="media/IIT5.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3"> />
- 
-                    <img class="photo" src="media/IIT6.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3"> />
-          
-                      
-               <img class="photo" src="media/IIT7.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3"> />
-           
-                    <img class="photo" src="media/IIT8.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3"> />
-            
-            
-                    <img class="photo" src="media/IIT9.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3"> />
-  
-              <img class="photo" src="media/IIT10.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3"> />
-       
-              <img class="photo" src="media/IIT11.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3"> />
-                        
-                    <img class="photo" src="media/IIT12.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3"> />
-                     
-        
-                      
-               <img class="photo" src="media/IIT20.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3"> />
+           <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div id="slides-section" class="section">
+            <div id="slides">
+             <div id="slides" style="overflow: hidden; display: block;">
+              <div class="slidesjs-container" style="overflow: hidden; position: relative; width: 724px; height: 269.5744680851064px;">
+                
+                <div class="slidesjs-control" style="position: relative; left: 0px; width: 724px; height: 269.5744680851064px;">
+                  
+                  <img src="media/IIT1.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; -webkit-backface-visibility: hidden; display: none;" slidesjs-index="0">
+                  
+                  <img src="media/IIT5.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 10; display: block; -webkit-backface-visibility: hidden;" slidesjs-index="1">
+                  
+                  <img src="media/IIT6.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="2">
+                  
+                  <img src="media/IIT7.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3"></div></div>
               
-                    <img class="photo" src="media/IIT21.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3"> />
+              
+              
+              <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+              <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+            <ul class="slidesjs-pagination"><li class="slidesjs-pagination-item"><a href="#" data-slidesjs-item="0" class="">1</a></li><li class="slidesjs-pagination-item"><a href="#" data-slidesjs-item="1" class="active">2</a></li><li class="slidesjs-pagination-item"><a href="#" data-slidesjs-item="2" class="">3</a></li><li class="slidesjs-pagination-item"><a href="#" data-slidesjs-item="3" class="">4</a></li></ul></div>
+              
+              
+              
+              
+              
+    <img class="photo" src="media/IIT1.jpg" alt="Image of IIT" />
+         
             
-                   <img class="photo" src="media/IIT2.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3"> />
-                      
-               <img class="photo" src="media/IIT3.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3"> />
-            
-                    <img class="photo" src="media/IIT4.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3"> />
+                    <img class="photo" src="media/IIT5.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3" />
  
+                    <img class="photo" src="media/IIT6.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3" />
+          
+                      
+               <img class="photo" src="media/IIT7.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3" />
+           
+                    <img class="photo" src="media/IIT8.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3" />
+            
+            
+                    <img class="photo" src="media/IIT9.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3" />
+  
+              <img class="photo" src="media/IIT10.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3" />
+       
+              <img class="photo" src="media/IIT11.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3" />
+                        
+                    <img class="photo" src="media/IIT12.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3" />
+                     
+                           
+               <img class="photo" src="media/IIT20.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3" />
+              
+                    <img class="photo" src="media/IIT21.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3" />
+            
+                   <img class="photo" src="media/IIT2.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3" />
+                      
+               <img class="photo" src="media/IIT3.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3" />
+            
+                    <img class="photo" src="media/IIT4.jpg" alt="Image of IIT" class="slidesjs-slide" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;" slidesjs-index="3" />
+           <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+              <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+            </div>
+        </div>
       </div>
+    </div>
+  </div>
+         
           
            <div id="slides_portrait">
            <img class="photo" src="media/IIT13.jpg" alt="Image of IIT"/453x600 />
